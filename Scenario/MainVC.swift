@@ -35,10 +35,52 @@ class MainVC: UIViewController, AVAudioPlayerDelegate {
         "If you could unknow one thing you know what would it be?",
         "What if you had to lose a limb, which one would go?",
         "What if you could choose the way you die, how would you go?",
-        "If you could have an endless supply of any food, what would you get?"
-    ]
-
+        "If you could have an endless supply of any food, what would you get?",
+        "If you were an animal, what would you be and why?",
+        "What is one goal you'd like to accomplish during your lifetime?",
+        "When you were little, who was your favorite super hero and why?",
+        "What's your favorite thing to do in the summer?",
+        "If you made a movie of your life, what would it be about and which actor actor would yo want to play out?",
+        "What if you were an ice cream flavor, which one would you be and why?",
+        "What's your favorite cartoon character, and why?",
+        "If you could visit any place in the world, where would you choose to go and why?",
+        "What's the ideal dream job for you?",
+        "Are you a morning or a night person?",
+        "What is your favorite hobby?",
+        "What's the weirdest thing you've ever eaten?",
+        "Name one of your favorite things about someone in your family.",
+        "If you had to describe yourself using three words, it would be..",
+        "If someone made a movie of your life would it be a drama, a comedy, a romantic-comedy, action film, or science fiction.",
+        "You can choose your last meal. What will the menu consist of?",
+        "List 5 people you know. Then describe each of them in 3 words.",
+        "If you could be any age again for one week, what age would you be?",
+        "Have you ever returned an item to a store for a refund after having used it?",
+        "Which emoji is more crucial to your life? 😂 or 😒",
+        "What's more important, truth or happiness?",
+        "If you go to a restaurant and have terrible service, is it ever OK not to tip?",
+        "If you could go to any college, regardless of cost or location, where would you go?",
+        "If you were to name one piece of clothing that describes you, what would you say?",
+        "If money were no object, where would you like to go on vacation?",
+        "What countries have you travelled to?",
+        "If you were handed free concert tickets, would you go or sell them? Why?",
+        "What is the best gift anyone's ever given to you?",
+        "If you could spend 15 minutes with any living person, who would it be and why?",
+        "f you won a million dollars, what would you do with it?",
+        "If you could be invisible for a day, what would you do?",
+        "If you were to be on a reality TV show which one would you be on and why?",
+        "If you could go only to one restaurant for the next five years, which would it be?",
+        "If you could be any kitchen appliance, what would it be and why?",
+        "Say one nice compliment about someone in this room.",
+        "If you had a magic lamp and a genie who granted you three wishes, what would the three wishes be?",
+        "If you could have a celebrity entourage with three celebrities, who would they be?",
+        "If you could go back and change your career path what would you be doing now?",
+        "If you could fly or you could breathe under water, what would you prefer?",
+        "If you could only take three people from this group to an island, who would they be?",
+        "If you could live to the age of 90 and either retain your looks or your brains that you had at age 30, which would you choose?",
+        ]
     
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
