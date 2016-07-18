@@ -149,7 +149,6 @@
     {
       "size" : "29x29",
       "idiom" : "watch",
-      "filename" : "Icon-Small@3x.png",
       "role" : "companionSettings",
       "scale" : "3x"
     },
@@ -175,15 +174,13 @@
       "subtype" : "42mm"
     },
     {
-      "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "iTunesArtwork.png",
+      "size" : "512x512",
       "scale" : "1x"
     },
     {
-      "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "iTunesArtwork@2x.png",
+      "size" : "512x512",
       "scale" : "2x"
     }
   ],

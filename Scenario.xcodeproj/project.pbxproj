@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90F8FD51D3D7825007D9628 /* button-27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E90F8FD41D3D7825007D9628 /* button-27.mp3 */; };
 		E9FACA421D3A81E100B86527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FACA411D3A81E100B86527 /* AppDelegate.swift */; };
 		E9FACA441D3A81E100B86527 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FACA431D3A81E100B86527 /* MainVC.swift */; };
 		E9FACA471D3A81E100B86527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FACA451D3A81E100B86527 /* Main.storyboard */; };
 		E9FACA491D3A81E100B86527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FACA481D3A81E100B86527 /* Assets.xcassets */; };
 		E9FACA4C1D3A81E100B86527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FACA4A1D3A81E100B86527 /* LaunchScreen.storyboard */; };
-		E9FACA541D3AAC2800B86527 /* beep-05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9FACA531D3AAC2800B86527 /* beep-05.mp3 */; };
 		E9FACA561D3AAE6A00B86527 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FACA551D3AAE6A00B86527 /* Sound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E90F8FD41D3D7825007D9628 /* button-27.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-27.mp3"; sourceTree = "<group>"; };
 		E9FACA3E1D3A81E100B86527 /* Scenario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scenario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FACA411D3A81E100B86527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9FACA431D3A81E100B86527 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -24,7 +25,6 @@
 		E9FACA481D3A81E100B86527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FACA4B1D3A81E100B86527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9FACA4D1D3A81E100B86527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9FACA531D3AAC2800B86527 /* beep-05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beep-05.mp3"; sourceTree = "<group>"; };
 		E9FACA551D3AAE6A00B86527 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,7 +63,7 @@
 				E9FACA551D3AAE6A00B86527 /* Sound.swift */,
 				E9FACA451D3A81E100B86527 /* Main.storyboard */,
 				E9FACA481D3A81E100B86527 /* Assets.xcassets */,
-				E9FACA531D3AAC2800B86527 /* beep-05.mp3 */,
+				E90F8FD41D3D7825007D9628 /* button-27.mp3 */,
 				E9FACA4A1D3A81E100B86527 /* LaunchScreen.storyboard */,
 				E9FACA4D1D3A81E100B86527 /* Info.plist */,
 			);
@@ -102,6 +102,7 @@
 				TargetAttributes = {
 					E9FACA3D1D3A81E100B86527 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5QF7ULFA3J;
 					};
 				};
 			};
@@ -130,8 +131,8 @@
 			files = (
 				E9FACA4C1D3A81E100B86527 /* LaunchScreen.storyboard in Resources */,
 				E9FACA491D3A81E100B86527 /* Assets.xcassets in Resources */,
+				E90F8FD51D3D7825007D9628 /* button-27.mp3 in Resources */,
 				E9FACA471D3A81E100B86527 /* Main.storyboard in Resources */,
-				E9FACA541D3AAC2800B86527 /* beep-05.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Scenario/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.naseem.Scenario;
@@ -270,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Scenario/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.naseem.Scenario;
@@ -296,6 +299,7 @@
 				E9FACA521D3A81E100B86527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
